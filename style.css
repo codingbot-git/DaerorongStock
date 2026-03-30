@@ -1,0 +1,42 @@
+body {
+    font-family: 'Pretendard', sans-serif;
+    background-color: #0d1117; /* 깃허브 다크모드 느낌 */
+    color: #c9d1d9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background: #161b22;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+header h1 {
+    color: #58a6ff;
+    margin-bottom: 5px;
+}
+
+.stock-info {
+    margin: 20px 0;
+    padding: 15px;
+    border-bottom: 1px solid #30363d;
+}
+
+#current-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff7b72; /* 상승 시 빨간색 느낌 */
+}
+
+.chart-container {
+    margin-top: 20px;
+    background: #0d1117;
+    padding: 15px;
+    border-radius: 8px;
+}
