@@ -40,3 +40,25 @@ header h1 {
     padding: 15px;
     border-radius: 8px;
 }
+
+/* style.css 하단에 추가 */
+.btn {
+    background-color: #238636;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #2ea043;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
