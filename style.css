@@ -41,7 +41,7 @@ header h1 {
     border-radius: 8px;
 }
 
-/* style.css 하단에 추가 */
+/*
 .btn {
     background-color: #238636;
     color: white;
@@ -61,4 +61,4 @@ header h1 {
 
 .btn:active {
     transform: scale(0.98);
-}
+} */
